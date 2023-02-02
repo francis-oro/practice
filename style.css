@@ -10,7 +10,6 @@
   .header-container {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
     width: auto;
   }
   
@@ -38,14 +37,14 @@
     text-align: center;
   }
 
-  .recipe-container {
+  .page-link-container {
     display: flex;
     width: auto;
     padding: 20px 0;
     justify-content: space-around;
   }
 
-  .recipe-link {
+  .page-link {
     display: flex;
     justify-self: auto;
     padding: 20px;
