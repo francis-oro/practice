@@ -49,3 +49,29 @@
     justify-self: auto;
     padding: 20px;
   }
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .page-one-content-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    width: auto;
+  }
+
+  .page-one-content-box {
+    flex-direction: row;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content-left
+  .content-right {
+    display: flex;
+    align-self: flex-start;
+  }
