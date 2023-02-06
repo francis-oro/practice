@@ -75,3 +75,16 @@
     display: flex;
     align-self: flex-start;
   }
+
+  .step {
+    padding: 20px;
+
+  }
+
+  .step-title {
+    padding: 10px;
+  }
+
+  .step-description {
+    padding: 5px
+  }
