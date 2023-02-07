@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,16 +15,10 @@
         </div>
     </div>
     <div class="main-container"> 
-        <div class="title-continer">
-            <div class="title">Title</div>
-        </div>
-        <div class="page-link-container">
-            <div class="page-link"><a href="page-one.html">Food Menu</a></div>
-            <div class="page-link"><a href="page-two.html">DIY Sprunkle</a></div>
-            <div class="page-link"><a href="page-three.html">Flex Practice</a></div>
-        </div>
+        <h1>Flex Practice</h1>
     </div>
     <div class="footer-container">
+        <a href="./index.html">Return to homepage</a>
     </div>
 </body>
 </html>
