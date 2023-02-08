@@ -95,3 +95,20 @@
   .step-description {
     padding: 5px
   }
+
+  .three-container {
+    display: flex;
+  }
+
+  .left-bar {
+    width: 100px;
+  }
+
+  .right-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 160px;
+  }
