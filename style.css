@@ -1,17 +1,13 @@
 * {
-    background-color:bisque;
+    background-color:bisqe;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 2px;
   }
-
 
   .page-three-all {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
   }
 
   .header-container {
@@ -24,16 +20,19 @@
     display: flex;
     width: 600px;
     justify-content: space-between;
+    background-color: tan;
   }
 
   .left-header
   .right header {
     display: flex;
     align-self: flex-start;
+    background-color: tan;
   }
 
   .title-container {
     margin: 20px;
+    padding: 100px;
     width: auto;
     padding: 20px 0;
     display: flex;
@@ -42,6 +41,7 @@
 
   .title {
     text-align: center;
+    font-size: 32px;
   }
 
   .page-link-container {
@@ -90,6 +90,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     padding: 20px;
     gap: 20px;
   }
@@ -106,14 +107,16 @@
     padding: 5px
   }
 
-  .three-container {
+
+  .middle-container {
     display: flex;
-    justify-content: flex-start;
   }
 
   .left-bar {
+    display: flex;
     width: 200px;
     flex-shrink: 0;
+    background-color: tan;
   }
 
   .right-boxes {
@@ -123,6 +126,9 @@
 
   .box {
     width: 160px;
+    border: 1px solid #000000;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
   }
 
   li {
@@ -131,5 +137,5 @@
 
   a {
     text-decoration: none;
-    color: black
+    color: maroon
   }
