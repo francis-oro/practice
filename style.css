@@ -23,20 +23,11 @@
 
   .title {
     margin: auto;
-    padding: 60px;
+    padding: 20px;
     width: auto;
     max-width: 580px;
     text-align: center;
     font-size: 24px;
-  }
-
-  .footr {
-    text-align: center;
-    width: 100%;
-    padding: 20px 0px;
-    left: 0px;
-    bottom: 0px;
-    background-color: tan;
   }
 
   .footer {
@@ -49,6 +40,7 @@
 
   li {
     list-style: none;
+    padding: 10px
   }
 
   a {
@@ -62,13 +54,17 @@
     display: flex;
     width: auto;
     margin: auto;
-    max-width: 580px;
+    max-width: 800px;
     justify-content: space-around;
   }
 
   .page-link {
     font-size: 36px;
     padding: 10px;
+    margin: 4px;
+    min-width: 250px;
+    text-align: center;
+    border-style: ridge;
   }
 
   /* Page One: Food Menu */
@@ -77,6 +73,8 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin: auto;
+    width: 400px;
   }
 
   .food-section {
@@ -123,12 +121,14 @@
   .right-boxes {
     display: flex;  
     flex-wrap: wrap;
+    height: 100px;
     padding: 5px;
   }
 
   .box {
     width: 160px;
     height: 100px;
+    margin: 10px;
     border: 1px solid #000000;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
