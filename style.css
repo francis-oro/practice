@@ -19,16 +19,17 @@
     padding: 0 30px;
     align-items: center;
     justify-content: space-between;
-    background-color: tan;
+    background-color: rgb(49, 137, 189);
   }
 
   .title {
     margin: auto;
+    margin-top: 20px;
     padding: 20px;
     width: auto;
     max-width: 580px;
     text-align: center;
-    font-size: 24px;
+    font-size: 24px;  
   }
 
   .footer {
@@ -36,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: tan;
+    background-color: rgb(49, 137, 189);
   }
 
   li {
@@ -46,26 +47,26 @@
 
   a {
     text-decoration: none;
-    color: maroon
+    color: rgb(20, 49, 0)
   }
 
   /* Homepage */
 
   .page-link-container {
     display: flex;
-    width: auto;
+    flex-direction: column;
     margin: auto;
     margin-top: 0px;
-    max-width: 800px;
-    justify-content: space-around;
   }
 
   .page-link {
+    display: flex;
     font-size: 36px;
-    padding: 10px;
+    padding: 16px;
     margin: 4px;
     min-width: 250px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     border-style: ridge;
   }
 
@@ -81,7 +82,7 @@
 
   .food-section {
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(214, 230, 255);
   }
 
   .food-item {
@@ -90,7 +91,7 @@
     justify-content: space-between;
   }
 
-/* Page Two: DIY Sprunkle */
+/* Page Two: How to Build an Ethryllic Icon */
 
   .step {
     margin: auto;
@@ -103,21 +104,22 @@
     margin-bottom: 20px;
     text-align: center;
     padding: 20px;
-    background-color: bisque
+    background-color: rgb(214, 230, 255);
+    border-style: ridge;
   }
 
-/* Page Three */
+/* Page Three: Photography */
 
   .page-three {
     display: flex;
     flex: 1;
   }
 
- .left-bar {
+ .left-side {
     min-height: 100%;
     width: 200px;
     flex-shrink: 0;
-    background-color: tan;
+    background-color: rgb(214, 230, 255);
     padding: 10px;
   }
 
@@ -135,4 +137,33 @@
     border: 1px solid #000000;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+  }
+
+/* Page Four: News Article */
+
+  .page-four-main {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .left-bar,
+  .right-bar {
+    background-color: rgb(214, 230, 255);
+    padding: 10px;
+    flex-shrink: 0;
+  }
+
+  .left-bar {
+    width: 200px;
+  }
+
+  .mid-bar {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+  }
+
+  .right-bar {
+    width: 200px;
   }
