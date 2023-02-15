@@ -93,6 +93,9 @@
 
 /* Page Two: How to Build an Ethryllic Icon */
 
+  .subtitle {
+    margin-top: 30px;
+  }
   .step {
     margin: auto;
     padding: 20px;
@@ -145,25 +148,27 @@
     display: flex;
     flex: 1;
     justify-content: space-between;
+    max-width: 1400px;
+    align-self: center;
   }
 
   .left-bar,
   .right-bar {
     background-color: rgb(214, 230, 255);
     padding: 10px;
+    min-width: 200px;
     flex-shrink: 0;
   }
 
   .left-bar {
-    width: 200px;
   }
 
   .mid-bar {
     width: 100%;
+    min-width: 400px;
     background-color: whitesmoke;
     padding: 20px;
   }
 
   .right-bar {
-    width: 200px;
   }
