@@ -170,9 +170,6 @@
     flex-shrink: 0;
   }
 
-  .left-bar {
-  }
-
   .mid-bar {
     width: 100%;
     min-width: 400px;
@@ -180,5 +177,10 @@
     padding: 20px;
   }
 
-  .right-bar {
+  /* Page Five: Meow */
+
+  .cat-box {
+    margin-left: 300px;
+    margin-top: 10px;
+    position: fixed;
   }
