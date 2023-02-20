@@ -29,7 +29,9 @@
     width: auto;
     max-width: 580px;
     text-align: center;
-    font-size: 24px;  
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.966);
+    border-radius: 10px;
   }
 
   .footer {
@@ -73,24 +75,31 @@
 
   /* Page One: Food Menu */
 
+  .food-menu-body {
+    background-image: url(images/Tablecloth.jpg);
+  }
   .food-menu{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: auto;
+    margin: 10px auto 40px;
     width: 400px;
+    background-color: rgba(214, 230, 255, 0.911);
+    border-radius: 10px;
   }
 
   .food-section {
     text-align: center;
-    background-color: rgb(214, 230, 255);
     border-radius: 10px;
   }
 
   .food-item {
-    padding: 20px;
+    padding: 10px;
+    margin: 5px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
   }
 
 /* Page Two: How to Build an Ethryllic Icon */
