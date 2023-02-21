@@ -163,6 +163,9 @@
 
 /* Page Four: News Article */
 
+  .news-article-body {
+  }
+
   .page-four-main {
     display: flex;
     flex: 1;
@@ -187,6 +190,11 @@
   }
 
   /* Page Five: Meow */
+
+  .meow-body {
+    background-image: url(images/background-white.jpg);
+    background-size: 1200px;
+  }
 
   .cat-box {
     margin-left: 300px;
