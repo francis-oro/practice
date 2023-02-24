@@ -30,7 +30,7 @@
     max-width: 580px;
     text-align: center;
     font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.966);
+    background-color: transparent;
     border-radius: 10px;
   }
 
@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
     background-color: rgb(49, 137, 189);
   }
 
@@ -78,6 +79,11 @@
   .food-menu-body {
     background-image: url(images/Tablecloth.jpg);
   }
+
+  .food-menu-title {
+    background-color: white;
+  }
+
   .food-menu{
     display: flex;
     flex-direction: column;
@@ -209,4 +215,24 @@
   .cat-3-box {
     margin: auto auto -20px 500px;
     bottom: 200px
+  }
+
+    /* Page Six: ??? */
+
+  .p6-top-container,
+  .p6-mid-container,
+  .p6-low-container {
+    padding: 20px;
+  }
+
+  .p6-top-container {
+    background-color: rgb(49, 137, 189);
+  }
+
+  .p6-mid-container {
+    background-color: rgb(6, 52, 78);;
+  }
+
+  .p6-low-container {
+    background-color: rgb(49, 137, 189);
   }
