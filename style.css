@@ -240,14 +240,24 @@
 
   .p6-welcome {
     font-size: 24px;
-    margin: auto
+    margin: auto 0px;
 
   }
 
   .p6-mid-container {
     background-color: rgb(6, 52, 78);;
+    display: flex;
+    justify-content: center;
   }
 
+  .p6-mid-box {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .p6-pic-description {
+    padding: 30px;
+  }
   .p6-low-container {
     background-color: rgb(49, 137, 189);
   }
