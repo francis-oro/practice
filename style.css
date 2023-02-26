@@ -227,6 +227,21 @@
 
   .p6-top-container {
     background-color: rgb(49, 137, 189);
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .p6-welcome-box {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .p6-welcome {
+    font-size: 24px;
+    margin: auto
+
   }
 
   .p6-mid-container {
