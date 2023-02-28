@@ -248,7 +248,7 @@
   }
 
   .p6-mid-container {
-    background-color: rgb(6, 52, 78);;
+    background-color: rgb(6, 52, 78);
     display: flex;
     justify-content: center;
   }
@@ -267,7 +267,6 @@
     justify-content: center;
   }
 
-
   .quote-box {
     padding: 40px;
   }
@@ -281,4 +280,22 @@
     font-weight: bold;
     text-align: right;
     padding-right: 40px;
+  }
+
+  .last-container {
+    background-color: rgb(49, 137, 189);
+    display: flex;
+    justify-content: center;
+  }
+  .sign-up-box {
+    background-color: rgb(6, 52, 78);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sign-up-button {
+    border-radius: 4px;
+    margin-left: 30px
   }
