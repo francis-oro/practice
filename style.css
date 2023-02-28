@@ -219,6 +219,9 @@
 
     /* Page Six: ??? */
 
+  .p6-body {
+    background-color: rgb(49, 137, 189);
+  }  
   .p6-top-container,
   .p6-mid-container,
   .p6-low-container {
@@ -260,4 +263,22 @@
   }
   .p6-low-container {
     background-color: rgb(49, 137, 189);
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .quote-box {
+    padding: 40px;
+  }
+
+  .quote {
+    font-style: italic;
+    padding: 10px;
+  }
+
+  .quote-author {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
   }
