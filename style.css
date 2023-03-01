@@ -217,7 +217,7 @@
     bottom: 200px
   }
 
-    /* Page Six: ??? */
+    /* Page Six: Landing Page */
 
   .p6-body {
     background-color: rgb(49, 137, 189);
@@ -298,4 +298,10 @@
   .sign-up-button {
     border-radius: 4px;
     margin-left: 30px
+  }
+
+/* Page Seven: Javascript */
+
+  .p7-body {
+    background-color: #0c0c2b;
   }
