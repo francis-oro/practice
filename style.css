@@ -305,3 +305,19 @@
   .p7-body {
     background-color: #0c0c2b;
   }
+
+  .button-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .big-button {
+    width: 400px;
+    height: 300px;
+    font-size: 64px;
+    padding: 40px;
+    margin: 40px;
+    background-color: rgb(255, 44, 44);
+    border-radius: 80px;
+    border-color: black;
+  }
