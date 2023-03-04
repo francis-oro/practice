@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border-style: dotted;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
@@ -178,6 +179,7 @@
     justify-content: space-between;
     max-width: 1400px;
     align-self: center;
+    width: 100%;
   }
 
   .left-bar,
@@ -221,11 +223,24 @@
 
   .p6-body {
     background-color: rgb(49, 137, 189);
+    
   }  
   .p6-top-container,
   .p6-mid-container,
-  .p6-low-container {
+  .p6-low-container,
+  .p6-last-container {
     padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .p6-welcome-box,
+  .p6-mid-boxes-container,
+  .p6-quote-box,
+  .sign-up-box {
+    width: 800px;
+    margin: auto 40px;
   }
 
   .p6-top-container {
@@ -234,58 +249,57 @@
     padding-top: 50px;
   }
 
-  .p6-welcome-box {
-    display: flex;
-    justify-content: space-around;
-    max-width: 900px;
-    margin: auto;
-  }
+      .p6-welcome-box {
+        display: flex;
+        justify-content: space-around;
+      }
 
-  .p6-welcome {
-    font-size: 24px;
-    margin: auto 0px;
-
-  }
+      .p6-welcome {
+        font-size: 24px;
+        margin: auto;
+      }
 
   .p6-mid-container {
     background-color: rgb(6, 52, 78);
-    display: flex;
-    justify-content: center;
   }
 
-  .p6-mid-box {
-    padding: 50px;
-    text-align: center;
-  }
+      .mid-boxes-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
-  .p6-pic-description {
-    padding: 30px;
-  }
+          .p6-mid-box {
+            padding: 50px;
+            text-align: center;
+          }
+
+          .p6-pic-description {
+            padding: 30px;
+          }
+
   .p6-low-container {
     background-color: rgb(49, 137, 189);
-    display: flex;
-    justify-content: center;
   }
 
-  .quote-box {
-    padding: 40px;
-  }
+    .quote-box {
+      padding: 40px;
+    }
 
-  .quote {
-    font-style: italic;
-    padding: 10px;
-  }
+    .quote {
+      font-style: italic;
+      padding: 10px;
+    }
 
-  .quote-author {
-    font-weight: bold;
-    text-align: right;
-    padding-right: 40px;
-  }
+    .quote-author {
+      font-weight: bold;
+      text-align: right;
+      padding-right: 40px;
+    }
 
-  .last-container {
+  .p6-last-container {
     background-color: rgb(49, 137, 189);
-    display: flex;
-    justify-content: center;
+    
   }
   .sign-up-box {
     background-color: rgb(6, 52, 78);
