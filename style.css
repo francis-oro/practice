@@ -341,3 +341,18 @@
     background-color: #0c0c2b;
   }
 
+  #p8-table {
+    margin: 80px auto 0px;
+    color:rgb(214, 230, 255);
+    border-style: solid;
+    border-color: azure;
+    padding: 10px;
+    border-collapse: collapse;
+
+  }
+
+  th, td {
+    border: 1px solid;
+    padding: 10px;
+    padding: 50px;
+  }
