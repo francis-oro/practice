@@ -342,8 +342,10 @@
   }
 
   .p8-table caption{
-    font-size: 24px;
+    font: italic 800 38px 42px serif;
     margin-bottom: 50px;
+    text-transform: uppercase;
+
   }
 
   .p8-table {
