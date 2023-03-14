@@ -126,6 +126,7 @@
     padding: 20px;
     background-color: rgb(214, 230, 255);
     border-style: ridge;
+    border-radius: 20px;
   }
 
 /* Page Three: Photography */
@@ -303,9 +304,9 @@
   .sign-up-box {
     background-color: rgb(6, 52, 78);
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .sign-up-button {
