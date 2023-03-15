@@ -6,7 +6,7 @@
 
   /* All Pages */
 
-  body {
+  .body-column {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
