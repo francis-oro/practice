@@ -4,362 +4,364 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
-  /* All Pages */
+/* All Pages */
 
-  .body-column {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+li {
+  list-style: none;
+  padding: 10px
+}
 
-  .header {
-    display: flex;
-    height: 40px;
-    width: auto;
-    padding: 0 30px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(49, 137, 189);
-  }
+a {
+  text-decoration: none;
+  color: rgb(20, 49, 0)
+}
 
-  .title {
-    margin: auto;
-    margin-top: 20px;
-    padding: 20px;
-    width: auto;
-    max-width: 580px;
-    text-align: center;
-    font-size: 24px;
-    background-color: transparent;
-    border-radius: 10px;
-  }
+/* Page 1-7 */
 
-  .footer {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
-    background-color: rgb(49, 137, 189);
-  }
+.body-column {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-  li {
-    list-style: none;
-    padding: 10px
-  }
+.header {
+  display: flex;
+  height: 40px;
+  width: auto;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(49, 137, 189);
+}
 
-  a {
-    text-decoration: none;
-    color: rgb(20, 49, 0)
-  }
+.title {
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: auto;
+  max-width: 580px;
+  text-align: center;
+  font-size: 24px;
+  background-color: transparent;
+  border-radius: 10px;
+}
 
-  /* Homepage */
+.footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  background-color: rgb(49, 137, 189);
+}
 
-  .page-link-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 0px;
-  }
+/* Homepage */
 
-  .page-link {
-    display: flex;
-    font-size: 36px;
-    padding: 16px;
-    margin: 4px;
-    min-width: 250px;
-    justify-content: center;
-    align-items: center;
-    border-style: ridge;
-    border-radius: 25px;
-  }
+.page-link-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 0px;
+}
 
-  /* Page One: Food Menu */
+.page-link {
+  display: flex;
+  font-size: 36px;
+  padding: 16px;
+  margin: 4px;
+  min-width: 250px;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+  border-radius: 25px;
+}
 
-  .food-menu-body {
-    background-image: url(images/Tablecloth.jpg);
-  }
+/* Page One: Food Menu */
 
-  .food-menu-title {
-    background-color: white;
-  }
+.food-menu-body {
+  background-image: url(images/Tablecloth.jpg);
+}
 
-  .food-menu{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin: 10px auto 40px;
-    width: 400px;
-    background-color: rgba(214, 230, 255, 0.911);
-    border-radius: 10px;
-  }
+.food-menu-title {
+  background-color: white;
+}
 
-  .food-section {
-    text-align: center;
-    border-radius: 10px;
-  }
+.food-menu{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px auto 40px;
+  width: 400px;
+  background-color: rgba(214, 230, 255, 0.911);
+  border-radius: 10px;
+}
 
-  .food-item {
-    padding: 10px;
-    margin: 5px;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 10px;
-  }
+.food-section {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.food-item {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+}
 
 /* Page Two: How to Build an Ethryllic Icon */
 
-  .subtitle {
-    margin-top: 30px;
-  }
-  .step {
-    margin: auto;
-    padding: 20px;
-    max-width: 800px;
-    min-width: 400px;
-  }
+.subtitle {
+  margin-top: 30px;
+}
+.step {
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+  min-width: 400px;
+}
 
-  .step-title {
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(214, 230, 255);
-    border-style: ridge;
-    border-radius: 20px;
-  }
+.step-title {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(214, 230, 255);
+  border-style: ridge;
+  border-radius: 20px;
+}
 
 /* Page Three: Photography */
 
-  .page-three {
-    display: flex;
-    flex: 1;
-  }
+.page-three {
+  display: flex;
+  flex: 1;
+}
 
- .left-side {
-    min-height: 100%;
-    width: 200px;
-    flex-shrink: 0;
-    background-color: rgb(214, 230, 255);
-    padding: 10px;
-    border-radius: 8px;
-  }
+.left-side {
+  min-height: 100%;
+  width: 200px;
+  flex-shrink: 0;
+  background-color: rgb(214, 230, 255);
+  padding: 10px;
+  border-radius: 8px;
+}
 
-  .right-boxes {
-    display: flex;  
-    flex-wrap: wrap;
-    height: 100px;
-    padding: 5px;
-  }
+.right-boxes {
+  display: flex;  
+  flex-wrap: wrap;
+  height: 100px;
+  padding: 5px;
+}
 
-  .box {
-    width: 180px;
-    height: 120px;
-    margin: 10px;
-    border: 1px solid #000000;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-  }
+.box {
+  width: 180px;
+  height: 120px;
+  margin: 10px;
+  border: 1px solid #000000;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
 
-  .gallery-image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-  }
+.gallery-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 
 /* Page Four: News Article */
 
-  .news-article-body {
+.news-article-body {
+}
+
+.page-four-main {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  max-width: 1400px;
+  align-self: center;
+  width: 100%;
+}
+
+.left-bar,
+.right-bar {
+  background-color: rgb(214, 230, 255);
+  padding: 10px;
+  min-width: 140px;
+  flex-shrink: 0;
+}
+
+.mid-bar {
+  width: 100%;
+  min-width: 400px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+/* Page Five: Meow */
+
+.meow-body {
+  background-image: url(images/background-white.jpg);
+  background-size: 1200px;
+}
+
+.cat-box {
+  margin-left: 300px;
+  margin-top: 10px;
+  position: fixed;
+}
+
+.cat-2-box {
+  margin: -160 100 -100 100
+}
+
+.cat-3-box {
+  margin: auto auto -20px 500px;
+  bottom: 200px
+}
+
+  /* Page Six: Landing Page */
+
+.p6-body {
+  background-color: rgb(49, 137, 189);
+  
+}  
+.p6-top-container,
+.p6-mid-container,
+.p6-low-container,
+.p6-last-container {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.p6-welcome-box,
+.p6-mid-boxes-container,
+.p6-quote-box,
+.sign-up-box {
+  width: 800px;
+  margin: auto 40px;
+}
+
+.p6-top-container {
+  background-color: rgb(49, 137, 189);
+  justify-content: center;
+  padding-top: 50px;
+}
+
+    .p6-welcome-box {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .p6-welcome {
+      font-size: 24px;
+      margin: auto;
+    }
+
+.p6-mid-container {
+  background-color: rgb(6, 52, 78);
+}
+
+    .mid-boxes-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+        .p6-mid-box {
+          padding: 50px;
+          text-align: center;
+        }
+
+        .p6-pic-description {
+          padding: 30px;
+        }
+
+.p6-low-container {
+  background-color: rgb(49, 137, 189);
+}
+
+  .quote-box {
+    padding: 40px;
   }
 
-  .page-four-main {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    max-width: 1400px;
-    align-self: center;
-    width: 100%;
-  }
-
-  .left-bar,
-  .right-bar {
-    background-color: rgb(214, 230, 255);
+  .quote {
+    font-style: italic;
     padding: 10px;
-    min-width: 140px;
-    flex-shrink: 0;
   }
 
-  .mid-bar {
-    width: 100%;
-    min-width: 400px;
-    background-color: whitesmoke;
-    padding: 20px;
+  .quote-author {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
   }
 
-  /* Page Five: Meow */
+.p6-last-container {
+  background-color: rgb(49, 137, 189);
+  
+}
+.sign-up-box {
+  background-color: rgb(6, 52, 78);
+  border-radius: 20px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .meow-body {
-    background-image: url(images/background-white.jpg);
-    background-size: 1200px;
-  }
-
-  .cat-box {
-    margin-left: 300px;
-    margin-top: 10px;
-    position: fixed;
-  }
-
-  .cat-2-box {
-    margin: -160 100 -100 100
-  }
-
-  .cat-3-box {
-    margin: auto auto -20px 500px;
-    bottom: 200px
-  }
-
-    /* Page Six: Landing Page */
-
-  .p6-body {
-    background-color: rgb(49, 137, 189);
-    
-  }  
-  .p6-top-container,
-  .p6-mid-container,
-  .p6-low-container,
-  .p6-last-container {
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .p6-welcome-box,
-  .p6-mid-boxes-container,
-  .p6-quote-box,
-  .sign-up-box {
-    width: 800px;
-    margin: auto 40px;
-  }
-
-  .p6-top-container {
-    background-color: rgb(49, 137, 189);
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-      .p6-welcome-box {
-        display: flex;
-        justify-content: space-around;
-      }
-
-      .p6-welcome {
-        font-size: 24px;
-        margin: auto;
-      }
-
-  .p6-mid-container {
-    background-color: rgb(6, 52, 78);
-  }
-
-      .mid-boxes-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-          .p6-mid-box {
-            padding: 50px;
-            text-align: center;
-          }
-
-          .p6-pic-description {
-            padding: 30px;
-          }
-
-  .p6-low-container {
-    background-color: rgb(49, 137, 189);
-  }
-
-    .quote-box {
-      padding: 40px;
-    }
-
-    .quote {
-      font-style: italic;
-      padding: 10px;
-    }
-
-    .quote-author {
-      font-weight: bold;
-      text-align: right;
-      padding-right: 40px;
-    }
-
-  .p6-last-container {
-    background-color: rgb(49, 137, 189);
-    
-  }
-  .sign-up-box {
-    background-color: rgb(6, 52, 78);
-    border-radius: 20px;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .sign-up-button {
-    border-radius: 4px;
-    margin-left: 30px
-  }
+.sign-up-button {
+  border-radius: 4px;
+  margin-left: 30px
+}
 
 /* Page Seven: Javascript */
 
-  .p7-body {
-    background-color: #0c0c2b;
-  }
+.p7-body {
+  background-color: #0c0c2b;
+}
 
-  .button-box {
-    display: flex;
-    justify-content: center;
-  }
+.button-box {
+  display: flex;
+  justify-content: center;
+}
 
-  .big-button {
-    width: 400px;
-    height: 300px;
-    font-size: 64px;
-    padding: 40px;
-    margin: 40px;
-    background-color: rgb(255, 44, 44);
-    border-radius: 80px;
-    border-color: black;
-  }
+.big-button {
+  width: 400px;
+  height: 300px;
+  font-size: 64px;
+  padding: 40px;
+  margin: 40px;
+  background-color: rgb(255, 44, 44);
+  border-radius: 80px;
+  border-color: black;
+}
 
-/* Page Eight */
+/* Page Eight: Table */
 
-  .p8-body {
-    background-color: #0c0c2b;
-  }
+.p8-body {
+  background-color: #0c0c2b;
+}
 
-  .p8-table caption{
-    font: italic 800 38px 42px serif;
-    margin-bottom: 50px;
-    text-transform: uppercase;
+.p8-table caption{
+  font: italic 800 38px 42px serif;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 
-  }
+}
 
-  .p8-table {
-    margin: 80px auto 0px;
-    color:rgb(214, 230, 255);
-    border-style: solid;
-    border-color: azure;
-    padding: 10px;
-  }
+.p8-table {
+  margin: 80px auto 0px;
+  color:rgb(214, 230, 255);
+  border-style: solid;
+  border-color: azure;
+  padding: 10px;
+}
 
-  th,
-  td {
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 50px;
-  }
+th,
+td {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 50px;
+}
