@@ -15,15 +15,13 @@ a {
   color: rgb(20, 49, 0)
 }
 
-/* Homepage and Pages 1-7 */
-
 .body-column {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +38,6 @@ a {
   max-width: 580px;
   text-align: center;
   font-size: 24px;
-  background-color: transparent;
 }
 
 footer {
@@ -54,22 +51,17 @@ footer {
 
 /* Homepage */
 
-.page-link-container {
+.homepage-link-box {
   display: flex;
   flex-direction: column;
   margin: 20px auto;
 }
 
-.page-link {
-  display: flex;
+.homepage-link {
   font-size: 36px;
   padding: 16px;
   margin: 4px;
-  min-width: 250px;
-  justify-content: center;
-  align-items: center;
   border-style: ridge;
-  border-color: auto;
   border-radius: 25px;
   text-decoration: none;
   color: rgb(20, 49, 0)
@@ -363,41 +355,4 @@ td {
   border: 1px solid;
   border-radius: 10px;
   padding: 50px;
-}
-
-/* Reworking Homepage */
-
-.page-title {
-  margin: 30px auto;
-  text-align: center;
-  font-size: 44px;
-}
-
-
-
-
-.homepage-body {
-  min-height: 100vh;
-  height:100%
-}
-
-.page-link-container2 {
-  display: flex;
-  flex-direction: column;
-  margin: 20px auto;
-}
-
-.page-link2 {
-  display: flex;
-  font-size: 36px;
-  padding: 16px;
-  margin: 4px;
-  min-width: 250px;
-  justify-content: center;
-  align-items: center;
-  border-style: ridge;
-  border-color: auto;
-  border-radius: 25px;
-  text-decoration: none;
-  color: rgb(20, 49, 0)
 }
