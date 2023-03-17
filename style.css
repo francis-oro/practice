@@ -16,7 +16,7 @@ a {
   color: rgb(20, 49, 0)
 }
 
-/* Page 1-7 */
+/* Pages 1-7 */
 
 .body-column {
   display: flex;
@@ -73,6 +73,7 @@ a {
   justify-content: center;
   align-items: center;
   border-style: ridge;
+  border-color: auto;
   border-radius: 25px;
 }
 
@@ -247,7 +248,6 @@ a {
 
 .p6-top-container {
   background-color: rgb(49, 137, 189);
-  justify-content: center;
   padding-top: 50px;
 }
 
