@@ -129,23 +129,25 @@ div.step h2 {
   flex: 1;
 }
 
-.left-side {
+/* Left nav */
+main.page-three nav {
   min-height: 100%;
   width: 200px;
   flex-shrink: 0;
   background-color: rgb(214, 230, 255);
   padding: 10px;
-  border-radius: 8px;
+  margin-top: 9px;
 }
 
-.right-boxes {
+.picture-gallery {
   display: flex;  
   flex-wrap: wrap;
-  height: 100px;
-  padding: 5px;
+  height: 100%;
+  padding-left: 5px;
 }
 
-.box {
+/* Image containers */
+main.page-three figure {
   width: 180px;
   height: 120px;
   margin: 10px;
@@ -154,7 +156,8 @@ div.step h2 {
   border-radius: 4px;
 }
 
-.gallery-image {
+/* Images */
+main.page-three img {
   height: 100%;
   width: 100%;
   object-fit: cover;
