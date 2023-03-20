@@ -100,17 +100,20 @@ footer {
 
 /* Page Two: How to Build an Ethryllic Icon */
 
-.subtitle {
+/*subtitle*/
+div.title h4 {
   margin-top: 30px;
 }
+
 .step {
   margin: auto;
   padding: 20px;
   max-width: 800px;
-  min-width: 400px;
+  min-width: 300px;
 }
 
-.step-title {
+/*step-title*/
+div.step h2 {
   margin-bottom: 20px;
   text-align: center;
   padding: 20px;
