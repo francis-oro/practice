@@ -147,7 +147,7 @@ main.page-three nav {
 }
 
 /* Image containers */
-main.page-three figure {
+div.picture-gallery figure {
   width: 180px;
   height: 120px;
   margin: 10px;
@@ -165,9 +165,6 @@ main.page-three img {
 }
 
 /* Page Four: News Article */
-
-.news-article-body {
-}
 
 .page-four-main {
   display: flex;
@@ -198,6 +195,10 @@ main.page-three img {
 .meow-body {
   background-image: url(images/background-white.jpg);
   background-size: 1200px;
+}
+
+body.meow-body div.title {
+  font-size: 10vh;
 }
 
 .cat-box {
