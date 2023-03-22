@@ -67,6 +67,14 @@ footer {
   color: rgb(20, 49, 0)
 }
 
+.homepage-link:hover {
+  background-color: rgb(49, 137, 189);
+}
+
+.homepage-link:active {
+  background-color: rgb(6, 52, 78)
+}
+
 /* Page 1: Food Menu */
 
 .food-menu-body {
