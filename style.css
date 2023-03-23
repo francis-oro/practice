@@ -106,7 +106,7 @@ footer {
   border-radius: 10px;
 }
 
-/* Page Two: How to Build an Ethryllic Icon */
+/* Page 2: How to Build an Ethryllic Icon */
 
 /*subtitle*/
 div.title h4 {
@@ -130,7 +130,7 @@ div.step h2 {
   border-radius: 20px;
 }
 
-/* Page Three: Photography */
+/* Page 3: Photography */
 
 .page-three {
   display: flex;
@@ -172,7 +172,7 @@ main.page-three img {
   overflow: hidden;
 }
 
-/* Page Four: News Article */
+/* Page 4: News Article */
 
 .page-four-main {
   display: flex;
@@ -198,7 +198,7 @@ main.page-three img {
   padding: 20px;
 }
 
-/* Page Five: Meow */
+/* Page 5: Meow */
 
 .meow-body {
   background-image: url(images/background-white.jpg);
@@ -224,7 +224,7 @@ body.meow-body div.title {
   bottom: 200px
 }
 
-  /* Page Six: Landing Page */
+  /* Page 6: Landing Page */
 
 .p6-body {
   background-color: rgb(49, 137, 189);
@@ -282,10 +282,6 @@ body.meow-body div.title {
           padding: 30px;
         }
 
-.p6-low-container {
-  background-color: rgb(49, 137, 189);
-}
-
   .quote-box {
     padding: 40px;
   }
@@ -301,10 +297,6 @@ body.meow-body div.title {
     padding-right: 40px;
   }
 
-.p6-last-container {
-  background-color: rgb(49, 137, 189);
-  
-}
 .sign-up-box {
   background-color: rgb(6, 52, 78);
   border-radius: 20px;
@@ -318,7 +310,7 @@ body.meow-body div.title {
   margin-left: 30px
 }
 
-/* Page Seven: Javascript */
+/* Page 7: Javascript */
 
 .p7-body {
   background-color: #0c0c2b;
@@ -340,7 +332,7 @@ body.meow-body div.title {
   border-color: black;
 }
 
-/* Page Eight: Table */
+/* Page 8: Table */
 
 .p8-body {
   background-color: #0c0c2b;
