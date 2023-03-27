@@ -332,6 +332,14 @@ body.meow-body div.title {
   border-color: black;
 }
 
+.big-button:hover {
+  background-color: pink;
+}
+
+.big-button:active {
+  background-color: black;
+}
+
 /* Page 8: Table */
 
 .p8-body {
