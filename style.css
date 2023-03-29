@@ -229,7 +229,13 @@ body.meow-body div.title {
 .p6-body {
   background-color: rgb(49, 137, 189);
   
-}  
+}
+
+.p6-body header {
+  align-self:center;
+  width: 800px;
+}
+
 .p6-top-container,
 .p6-mid-container,
 .p6-low-container,
@@ -367,3 +373,6 @@ td {
   border-radius: 10px;
   padding: 50px;
 }
+
+/* Page 9 */
+
