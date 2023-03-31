@@ -224,12 +224,6 @@ body.meow-body div.title {
 
 .p6-body {
   background-color: rgb(49, 137, 189);
-  
-}
-
-.p6-body header {
-  align-self:center;
-  width: 800px;
 }
 
 .p6-top-container,
@@ -352,7 +346,6 @@ body.meow-body div.title {
   font: italic 800 38px 42px serif;
   margin-bottom: 50px;
   text-transform: uppercase;
-
 }
 
 .p8-table {
@@ -372,3 +365,6 @@ td {
 
 /* Page 9 */
 
+.p9-body {
+  background-color: #1c1c30 ;
+}
