@@ -37,7 +37,7 @@ header {
   width: auto;
   max-width: 580px;
   text-align: center;
-  font: italic small-caps bold 24px/48px Roboto;
+  font-size: 24px;
 }
 
 footer {
