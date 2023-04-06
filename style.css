@@ -194,6 +194,11 @@ main.page-three img {
   padding: 20px;
 }
 
+.news-image {
+  display: block;
+  margin: 40px auto;
+}
+
 /* Page 5: Meow */
 
 .meow-body {
