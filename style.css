@@ -196,7 +196,22 @@ main.page-three img {
 
 .news-image {
   display: block;
-  margin: 40px auto;
+  margin: 40px auto 10px;
+}
+
+.news-image-description {
+  text-align: center;
+}
+
+.news-quote {
+  display: block;
+  width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  font-style: italic;
+  background-color: bisque;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* Page 5: Meow */
