@@ -130,6 +130,13 @@ div.step h2 {
   border-radius: 20px;
 }
 
+div.step p {
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  text-shadow: .5px .4px #0c0c2b;
+  color: #0c0c25
+}
+
 /* Page 3: Photography */
 
 .page-three {
