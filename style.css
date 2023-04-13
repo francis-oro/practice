@@ -12,7 +12,15 @@ li {
 
 a {
   text-decoration: none;
-  color: rgb(20, 49, 0)
+}
+
+a:active {
+  color: rgb(49, 137, 189);
+}
+
+a:visited {
+  text-decoration: none;
+  color: black
 }
 
 .body-column {
@@ -32,7 +40,7 @@ header {
 }
 
 .title {
-  margin: 20px auto auto;
+  margin: 20px auto 0px;
   padding: 20px;
   width: auto;
   max-width: 580px;
@@ -389,5 +397,23 @@ td {
 /* Page 9 */
 
 .p9-body {
-  background-color: #1c1c30 ;
+  background-color: white;
+  background-image: linear-gradient(white, rgb(49, 137, 189));
+}
+
+body.p9-body main {
+  display: flex;
+  justify-content: center;
+}
+
+.p9-nav {
+  border-right: #0c0c2b 2px solid;
+  padding: 80px 20px;
+  margin: auto 0px;
+}
+
+.p9-right {
+  width: 300px;
+  padding: 80px 20px;
+  margin: auto 0px;
 }
