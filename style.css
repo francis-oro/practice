@@ -78,21 +78,16 @@ footer {
 /* Page 1: Food Menu */
 
 .food-menu-body {
-  background-image: url(images/Tablecloth.jpg);
+  background-color:rgba(214, 230, 255);
 }
 
-.food-menu-title {
-  background-color: white;
-  border-radius: 10px;
-}
-
-.food-menu{
+.food-menu {
   display: flex;
   flex-direction: column;
   padding: 20px;
   margin: 10px auto 40px;
   width: 400px;
-  background-color: rgba(214, 230, 255, 0.911);
+  background-color: rgb(137, 193, 226);
   border-radius: 10px;
   text-align: center;
 }
@@ -102,7 +97,7 @@ footer {
   margin: 5px;
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: rgba(214, 230, 255);
   border-radius: 10px;
 }
 
