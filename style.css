@@ -204,6 +204,14 @@ main.page-three img {
   padding: 20px;
 }
 
+.mid-bar h3 {
+  text-align: center;
+}
+
+.mid-bar p {
+  max-width: 800px;
+}
+
 .news-image {
   display: block;
   margin: 40px auto 10px;
