@@ -374,7 +374,7 @@ body.meow-body div.title {
   background-color: black;
 }
 
-/* Page 8: Table */
+/* Page 8: Shows */
 
 .p8-body {
   background-color: #0c0c2b;
@@ -395,16 +395,13 @@ body.meow-body div.title {
 }
 
 #p8-row-legend {
-  font-weight: 800;
-  font-size: 36px;
-  padding: 0px;
+  font-weight: 500;
+  font-size: 26px;
 }
 
 th,
 td {
-  border: 1px solid;
-  border-radius: 8spx;
-  padding: 40px;
+  padding: 20px;
 }
 
 
