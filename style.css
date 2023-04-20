@@ -155,6 +155,7 @@ main.page-three nav {
   background-color: rgb(214, 230, 255);
   padding: 10px;
   margin-top: 9px;
+  box-shadow: 3px 4px 4px rgba(0,0,0,.6);
 }
 
 .picture-gallery {
@@ -170,8 +171,8 @@ div.picture-gallery figure {
   height: 120px;
   margin: 10px;
   border: 1px solid #000000;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
+  box-shadow: 6px 8px 8px rgba(0,0,0,.6);
+  border-radius: 5px;
 }
 
 /* Images */
