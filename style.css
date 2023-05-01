@@ -416,9 +416,7 @@ td {
   font-size: 18px;
 }
 
-
-
-/* Page 9 */
+/* Page 9: Thoughts */
 
 .p9-body {
   background-color: white;
@@ -441,4 +439,12 @@ body.p9-body main {
   width: 300px;
   padding: 80px 20px;
   margin: auto 0px;
+}
+
+/* Page 10 */
+
+#p10-greeting {
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
 }
