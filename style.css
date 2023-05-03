@@ -249,6 +249,7 @@ main.page-three img {
 
 body.meow-body div.title {
   font-size: 10vh;
+  text-shadow: 8px 8px 8px #111131;
 }
 
 .cat-box {
