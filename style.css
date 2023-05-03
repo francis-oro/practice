@@ -371,14 +371,14 @@ body.meow-body div.title {
   font-size: 64px;
   padding: 40px;
   margin: 40px;
-  background-color: rgb(255, 44, 44);
+  background-color: rgb(170, 12, 12);
   border-radius: 80px;
   border-color: black;
   box-shadow: 2px 4px 2px rgba(0,0,0,.6);
 }
 
 .big-button:hover {
-  background-color: pink;
+  background-color: rgb(226, 47, 47);
 }
 
 .big-button:active {
