@@ -389,7 +389,6 @@ body.meow-body div.title {
 /* Page 8: Shows */
 
 .p8-body {
-  background-color: #0c0c2b;
 }
 
 .p8-table caption{
@@ -401,7 +400,6 @@ body.meow-body div.title {
 .p8-table {
   width: 100%;
   margin: 0px auto;
-  color:rgb(214, 230, 255);
   padding: 10px;
   text-align: center;
 }
@@ -416,7 +414,7 @@ td {
   padding: 30px;
   box-shadow: 1px 3px 6px rgba(0,0,0,.6);
   border-radius: 5px;
-  background-color: #111131;
+  background-color: rgba(214, 230, 255);
   font-size: 18px;
 }
 
