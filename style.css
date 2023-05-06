@@ -393,6 +393,7 @@ body.meow-body div.title {
 
 .p8-table {
   width: 100%;
+  max-width: 800px;
   margin: 0px auto;
   padding: 10px;
   text-align: center;
@@ -405,7 +406,7 @@ body.meow-body div.title {
 
 th,
 td {
-  padding: 30px;
+  padding: 20px;
   box-shadow: 1px 3px 6px rgba(0,0,0,.6);
   border-radius: 5px;
   background-color: rgba(214, 230, 255);
