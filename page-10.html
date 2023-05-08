@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body-column">
-  <script type="text/javascript" src="test.js"></script>
+
+  <script type="text/javascript" src="greeting.js"></script>
+  
   <header>
       <a href="index.html">Home</a>
       <div>Practice</div>
@@ -20,18 +22,6 @@
 
   <main>
       <p id="p10-greeting">Good Evening!</p>
-      <script>
-      const time = new Date().getHours();
-      let greeting;
-      if (time < 10) {
-        greeting = "Good morning";
-      } else if (time < 20) {
-        greeting = "Good day";
-      } else {
-        greeting = "Good evening";
-      }
-      document.getElementById("p10-greeting").innerHTML = greeting;
-      </script>
   </main>
 
   <footer>
