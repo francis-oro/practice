@@ -190,20 +190,18 @@ main.page-three img {
 
 .page-four-main {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
-  width: 100%;
+  align-self: center;
 }
 
 .left-bar,
 .right-bar {
   background-color: rgb(214, 230, 255);
   padding: 10px;
-  min-width: 140px;
+  min-width: 130px;
 }
 
 .mid-bar {
-  min-width: 400px;
+  min-width: 160px;
   background-color: whitesmoke;
   padding: 20px;
 }
