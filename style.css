@@ -353,32 +353,35 @@ body.meow-body div.title {
 /* Page 7: Buttons */
 
 .p7-body {
-  background-color: #0c0c2b;
+
 }
 
 .button-box {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-self: center;
 }
 
 .big-button {
+  height: 200px;
   width: 400px;
-  height: 300px;
-  font-size: 64px;
-  padding: 40px;
-  margin: 40px;
-  background-color: rgb(170, 12, 12);
-  border-radius: 80px;
-  border-color: black;
+  font-size: 30px;
+  padding: 16px;
+  margin: 4px;
+  border-style: ridge;
+  border-radius: 15px;
   box-shadow: 2px 4px 2px rgba(0,0,0,.6);
+  text-decoration: none;
+  background-color: rgb(240, 240, 240);
 }
 
 .big-button:hover {
-  background-color: rgb(226, 47, 47);
+  background-color: rgb(49, 137, 189);
 }
 
 .big-button:active {
-  background-color: black;
+  background-color: rgb(6, 52, 78)
 }
 
 /* Page 8: Shows */
