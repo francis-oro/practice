@@ -356,6 +356,11 @@ body.meow-body div.title {
   border-color: rgb(49, 137, 189);
 }
 
+.sign-up-button:hover {
+  background-color: rgb(6, 52, 78);
+}
+
+
 /* Page 7: Buttons */
 
 .p7-body {
