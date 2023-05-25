@@ -1,2 +1,2 @@
 # practice
-General practice with HTML, CSS, and JavaScript
+General practice with git, HTML, CSS, and JavaScript
