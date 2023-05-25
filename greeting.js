@@ -1,4 +1,4 @@
-/*greet user based on time of day */
+/* greet user based on time of day */
 const greeting = document.getElementById("greeting");
 const hour = new Date().getHours();
 const welcomeTypes = ["Good morning", "Good afternoon", "Good evening"];
