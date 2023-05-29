@@ -103,7 +103,7 @@ footer {
 .food-menu div {
   padding: 10px;
   margin: 5px;
-  gap: 50px;
+  gap: 950px;
   display: flex;
   justify-content: space-between;
   background-color: rgba(214, 230, 255);
@@ -202,7 +202,7 @@ main.page-three img {
 }
 
 .mid-bar {
-  min-width: 160px;
+  min-width: 1160px;
   background-color: whitesmoke;
   padding: 20px;
 }
@@ -283,7 +283,7 @@ body.meow-body div.title {
 .p6-mid-boxes-container,
 .p6-quote-box,
 .sign-up-box {
-  width: 800px;
+  width: 1800px;
   margin: auto 40px;
 }
 
