@@ -360,12 +360,7 @@ body.meow-body div.title {
   background-color: rgb(6, 52, 78);
 }
 
-
 /* Page 7: Buttons */
-
-.p7-body {
-
-}
 
 .button-box {
   display: flex;
@@ -451,9 +446,17 @@ body.p9-body main {
 
 /* Page 10 */
 
+.greeting-box {
+  text-align: center;
+}
+
 #greeting {
   font-size: 32px;
   font-style: italic;
-  text-align: center;
   text-shadow: 1px 2px 8px rgb(49, 137, 189);
+  padding: 0px 0px 30px;
+}
+
+.p10-button {
+  font-size: 18px;
 }

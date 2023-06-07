@@ -20,8 +20,15 @@
   </div>
 
   <main>
-    <div id="greeting">1</div>
-    <script src="./greeting.js"></script>
+    <div class="greeting-box">
+      <div id="greeting">1</div>
+      <script src="./greeting.js"></script>
+
+      <button class="p10-button" onclick="document.getElementById('greeting').style.fontSize='48px'">Louder please</button>
+      <br><br>
+      <button class="p10-button" onclick="document.getElementById('greeting').style.fontSize='12px'">Quieter please</button>
+    </div>
+
     <script> /* add 7 to a number */
       function add7(number) {
           return number + 7
