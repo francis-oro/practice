@@ -459,7 +459,7 @@ body.p9-body main {
 
 .p10-button {
   font-size: 18px;
-  background-color: rgb(49, 137, 189) ;
+  background-color: rgb(49, 137, 189);
   padding: 6px;
   border-style: ridge;
   border-radius: 8px;
@@ -478,4 +478,13 @@ body.p9-body main {
 
 .p10-button:visited {
   background-color: red;
+}
+
+.p10-box {
+  border: transparent;
+  border-radius: 20px;
+  background-color:rgb(189, 215, 230);
+  width: 200px;
+  margin: 10px auto;
+  padding: 15px 0px;
 }
