@@ -475,3 +475,7 @@ body.p9-body main {
 .p10-button:active {
   background-color: rgb(6, 52, 78)
 }
+
+.p10-button:visited {
+  background-color: red;
+}
