@@ -488,3 +488,8 @@ body.p9-body main {
   margin: 10px auto;
   padding: 15px 0px;
 }
+
+.p10-box p {
+  font-size: 18px;
+  font-weight: 500;
+}
