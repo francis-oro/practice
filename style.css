@@ -492,4 +492,8 @@ body.p9-body main {
 .p10-box p {
   font-size: 18px;
   font-weight: 500;
+  background-color: rgb(49, 137, 189);
+  border: solid;
+  border-color: rgb(49, 137, 189);
+  border-radius: 4px;
 }
