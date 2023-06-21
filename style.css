@@ -444,7 +444,7 @@ body.p9-body main {
   margin: auto 0px;
 }
 
-/* Page 10 */
+/* Page 10: JavaScript */
 
 .greeting-box {
   text-align: center;
@@ -496,4 +496,9 @@ body.p9-body main {
   border: solid;
   border-color: rgb(49, 137, 189);
   border-radius: 4px;
+}
+
+/* Page 11: */
+.p11-body {
+  background-image: linear-gradient(white, rgb(49, 137, 189))
 }
