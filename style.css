@@ -446,6 +446,10 @@ body.p9-body main {
 
 /* Page 10: JavaScript */
 
+.p10-body {
+  background-image: linear-gradient(white, rgb(49, 137, 189));
+}
+
 .greeting-box {
   text-align: center;
 }
@@ -459,13 +463,12 @@ body.p9-body main {
 
 .p10-button {
   font-size: 18px;
-  background-color: rgb(49, 137, 189);
   padding: 6px;
-  border-style: ridge;
+  border-style: transparent;
   border-radius: 8px;
   box-shadow: 1px 2px 2px rgba(0,0,0,.6);
   text-decoration: none;
-  background-color: rgb(240, 240, 240);
+  background-image: linear-gradient(white, rgb(184, 212, 228));
 }
 
 .p10-button:hover {
@@ -481,21 +484,20 @@ body.p9-body main {
 }
 
 .p10-box {
-  border: transparent;
+  border: solid rgb(6, 52, 78);
   border-radius: 20px;
-  background-color:rgb(189, 215, 230);
+  background-color:rgb(222, 231, 236);
   width: 200px;
   margin: 10px auto;
   padding: 15px 0px;
 }
 
 .p10-box p {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   background-color: rgb(49, 137, 189);
   border: solid;
   border-color: rgb(49, 137, 189);
-  border-radius: 4px;
 }
 
 /* Page 11: */
