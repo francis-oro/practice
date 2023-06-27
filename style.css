@@ -438,12 +438,19 @@ body.p9-body main {
   line-height: 26px;
 }
 
+.p9-nav a:hover {
+  color: transparent
+}
+
 .p9-right {
   width: 300px;
   padding: 80px 20px;
   margin: auto 0px;
 }
 
+.p9-right:hover {
+  color: transparent
+}
 /* Page 10: JavaScript */
 
 .p10-body {
