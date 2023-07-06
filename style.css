@@ -438,7 +438,7 @@ body.p9-body main {
 }
 
 .p9-nav a:hover {
-  color: transparent
+  color: red
 }
 
 .p9-right {
@@ -448,7 +448,7 @@ body.p9-body main {
 }
 
 .p9-right:hover {
-  color: transparent
+  color: green
 }
 /* Page 10: JavaScript */
 
