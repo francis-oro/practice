@@ -148,7 +148,7 @@ div.step p {
 
 .page-three {
   display: flex;
-  flex: 1;
+  flex: auto;
 }
 
 /* Left nav */
