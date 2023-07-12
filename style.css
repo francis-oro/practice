@@ -64,12 +64,12 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 20px auto;
+  gap: 10px;
 }
 
 .homepage-link {
   font-size: 28px;
   padding: 16px;
-  margin: 4px;
   border-style: solid;
   border-radius: 10px;
   border-width: 1px;
@@ -92,6 +92,7 @@ footer {
 .food-menu {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   padding: 20px;
   margin: 10px auto 40px;
   max-width: 400px;
@@ -103,7 +104,6 @@ footer {
 
 .food-menu div {
   padding: 10px;
-  margin: 5px;
   gap: 95px;
   display: flex;
   justify-content: space-between;
