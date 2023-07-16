@@ -20,18 +20,27 @@
     </div>
 
     <main>
-        <script>
-            let n = 10;
-
-            nextPrime:
-            for (let i = 2; i <= n; i++) {
-
-                for (let j = 2; j < i; j++) {
-                    if (i % j == 0) continue nextPrime;
+        <script> /* Sum numbers between (and including) two numbers */
+            const sumAll = function(first, last) {
+                if (first < 0 || last < 0) {return 'ERROR'};
+                if (typeof first !== 'number') {return 'ERROR'};
+                if (typeof last !== 'number') {return 'ERROR'};
+                let total;
+                if (first < last){
+                    let total = first;
+                    for (i = first + 1; i <= last; i++) {
+                        let output = (total += i)
+                    }
+                    return total
                 }
-
-                console.log( i );
-            }
+                else if (last < first) {
+                    let total = last;
+                    for (i = last + 1; i <= first; i++) {
+                        let output = (total += i)
+                    }
+                    return total
+                }
+            };
         </script>
     </main>
 
