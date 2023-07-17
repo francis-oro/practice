@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="body-column p11-body">
+<body class="body-column p11-body" style="background-color: #202020">
     <header>
         <a href="../index.html">Home</a>
         <div>Practice</div>
@@ -19,28 +19,20 @@
         <h1>Page 11</h1>
     </div>
 
-    <main>
-        <script> /* Sum numbers between (and including) two numbers */
-            const sumAll = function(first, last) {
-                if (first < 0 || last < 0) {return 'ERROR'};
-                if (typeof first !== 'number') {return 'ERROR'};
-                if (typeof last !== 'number') {return 'ERROR'};
-                let total;
-                if (first < last){
-                    let total = first;
-                    for (i = first + 1; i <= last; i++) {
-                        let output = (total += i)
-                    }
-                    return total
+    <main></main>
+        <script> /* Determine if year is leap year */
+            const leapYears = function(year) {
+                if (year % 400 == 0) {
+                    return true
                 }
-                else if (last < first) {
-                    let total = last;
-                    for (i = last + 1; i <= first; i++) {
-                        let output = (total += i)
-                    }
-                    return total
+                else if ((year % 100 !== 0) && (year % 4 == 0)) {
+                    return true
                 }
+                else return false
             };
+            console.log(leapYears(1997))
+            console.log(leapYears(1996))
+            console.log(leapYears(34992))
         </script>
     </main>
 
