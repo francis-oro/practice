@@ -20,19 +20,19 @@
     </div>
 
     <main></main>
-        <script> /* Determine if year is leap year */
-            const leapYears = function(year) {
-                if (year % 400 == 0) {
-                    return true
-                }
-                else if ((year % 100 !== 0) && (year % 4 == 0)) {
-                    return true
-                }
-                else return false
+        <script> /* Convert Fahrenheit to Celsius and vice versa*/
+            const convertToCelsius = function(degreeF) {
+                let outputC = ((degreeF - 32) * (5 / 9))
+                return Math.round(outputC * 10) / 10
+            }
+            ;
+
+            const convertToFahrenheit = function(degreeC) {
+                let outputF = ((degreeC * (9 / 5)) + 32)
+                return Math.round(outputF * 10) / 10
             };
-            console.log(leapYears(1997))
-            console.log(leapYears(1996))
-            console.log(leapYears(34992))
+            console.log(convertToCelsius(32))
+            console.log(convertToFahrenheit(100))
         </script>
     </main>
 
