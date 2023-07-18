@@ -30,7 +30,7 @@ else
 };
 
 // Reverse a string
-const reverseString = function(input) {
+const reverseString = (input) => {
     let splitInput = input.split('');
     let wordLength = splitInput.length;
     let newWord = ''

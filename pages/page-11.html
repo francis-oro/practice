@@ -21,7 +21,41 @@
     </div>
 
     <main>
+        <div id="container">
+        </div>
     </main>
+    <script>
+        const container = document.querySelector('#container');
+
+        const content = document.createElement('div');
+        content.textContent = 'This is the glorious text-content!';
+        container.appendChild(content);
+
+        const redParagraph = document.createElement('p');
+        redParagraph.textContent = 'Hey I\'m red!';
+        redParagraph.style.color = 'red';
+        container.appendChild(redParagraph);
+
+        const blueParagraph = document.createElement('h3');
+        blueParagraph.textContent = 'I\'m a blue h3!';
+        blueParagraph.style.color = 'blue';
+        container.appendChild(blueParagraph);
+
+        const newDiv = document.createElement('div');
+        newDiv.style = 'border-style: solid; background-color: pink'
+
+        const newHeading = document.createElement('h1');
+        newHeading.textContent = 'I\'m in a div';
+        newDiv.appendChild(newHeading)
+
+        const newParagraph = document.createElement('p');
+        newParagraph.textContent = 'ME TOO!';
+        newDiv.appendChild(newParagraph)
+        container.appendChild(newDiv);
+
+        console.log(reverseString('animal'))
+
+    </script>
 
     <footer>
         <div>Francis Oró</div>
