@@ -1,3 +1,23 @@
+// add 7 to a number
+function add7(number) {
+    return number + 7
+};
+
+// multiply two numbers
+function multiply(a,b) {
+    return a * b
+};
+
+// capitalize only first letter of string
+function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+};
+
+// return last letter of string
+function lastLetter(string) {
+    return string.slice(-1)
+};
+
 // Repeat string a certain number of times
 const repeatString = function(input, repeatNumber) {
     let i = input;
@@ -35,7 +55,7 @@ const removeFromArray = function(array, removedValue) {
             array.splice(j, 1)
             }
     };  return array
-}
+};
 
 // Sum all numbers between two numbers
 const sumAll = function(first, last) {
@@ -82,3 +102,4 @@ const convertToFahrenheit = function(degreeC) {
     let outputF = ((degreeC * (9 / 5)) + 32)
     return Math.round(outputF * 10) / 10
 };
+
