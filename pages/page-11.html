@@ -7,6 +7,7 @@
     <title>Page 11</title>
     <link rel="icon" type="image/png" href="../images/favicon.png">
     <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
 </head>
 
 <body class="body-column p11-body" style="background-color: #202020">
@@ -19,20 +20,11 @@
         <h1>Page 11</h1>
     </div>
 
-    <main></main>
-        <script> /* Convert Fahrenheit to Celsius and vice versa*/
-            const convertToCelsius = function(degreeF) {
-                let outputC = ((degreeF - 32) * (5 / 9))
-                return Math.round(outputC * 10) / 10
-            }
-            ;
-
-            const convertToFahrenheit = function(degreeC) {
-                let outputF = ((degreeC * (9 / 5)) + 32)
-                return Math.round(outputF * 10) / 10
-            };
+    <main>
+        <script>
             console.log(convertToCelsius(32))
             console.log(convertToFahrenheit(100))
+            console.log(repeatString('hey', 10))
         </script>
     </main>
 
