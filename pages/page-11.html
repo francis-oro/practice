@@ -24,6 +24,11 @@
         <div id="container">
             <button id="btn">Click Me</button>
             <button id="btn2">Click Me Too</button>
+            <div id="container">
+                <button id="1">Click Me</button>
+                <button id="2">Click Me</button>
+                <button id="3">Click Me</button>
+            </div>
         </div>
     </main>
     <script>
@@ -62,6 +67,23 @@
         newParagraph.textContent = 'ME TOO!';
         newDiv.appendChild(newParagraph)
         container.appendChild(newDiv);
+
+        const btn3 = document.createElement('button')
+        btn3.textContent = 'BUTTON'
+        container.appendChild(btn3);
+        btn3.addEventListener('click', function (e) {
+        e.target.style.background = 'red';
+        alert('Now I\'m red');
+        });
+
+        const btn4 = document.createElement('button')
+        btn4.textContent = 'Another Test'
+        container.appendChild(btn4);
+        btn4.addEventListener('click', function (e) {
+        e.target.style.background = 'blue';
+        });
+
+        const buttons = document.querySelectorAll('button');
 
         console.log(reverseString('animal'))
 
