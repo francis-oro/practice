@@ -1,3 +1,20 @@
+// greet user based on time of day
+
+function greetUser() {
+    const greeting = document.getElementById("greeting");
+    const hour = new Date().getHours();
+    const welcomeTypes = ["Good morning", "Good afternoon", "Good evening"];
+    let welcomeText = "";
+    
+    if (hour < 12) welcomeText = welcomeTypes[0];
+    else if (hour < 18) welcomeText = welcomeTypes[1];
+    else welcomeText = welcomeTypes[2];
+    
+    greeting.innerHTML = welcomeText;
+    }
+    
+    greetUser()
+
 // add 7 to a number
 function add7(number) {
     return number + 7
