@@ -531,10 +531,14 @@ body.p9-body main {
 
 /* Page 13: */
 
+.p13-body {
+  box-sizing: border-box;
+}
+
 .thediv {
-  aspect-ratio: 1 / 4;
-  max-width: 100vh;
-  max-height: 90vh;
+  width: 98vw;
+  height: 99vh;
   background-color: pink;
+  border: 1px solid blue;
   margin: auto;
 }
