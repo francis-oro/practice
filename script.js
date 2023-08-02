@@ -119,4 +119,3 @@ const convertToFahrenheit = function(degreeC) {
     let outputF = ((degreeC * (9 / 5)) + 32)
     return Math.round(outputF * 10) / 10
 };
-
