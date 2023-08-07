@@ -17,14 +17,20 @@
                 color: "purple"
             };
 
-        console.log(testObject.color);
-
-        let profile = {
+            let profile = {
                 name: "Steven",
                 age: 42,
                 height: "5'7\""
             };
-        console.log(profile.name, profile.age)
+
+            function ageCheck() {
+                if (profile.age > 18){
+                    console.log ('welcome')
+                }    
+                    else {console.log ('access denied')}
+            }
+            ageCheck();
+            console.log(profile.name, profile.age)
         </script>
     </div>
 </body>
