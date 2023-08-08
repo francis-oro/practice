@@ -17,23 +17,22 @@
                 color: "purple"
             };
 
-            let username = prompt('Please enter username')
-            
-            let profile = {
-                username: 'Steven555',
+            let Steven555 = {
                 name: "Steven Buckley",
                 age: 42,
                 height: "5'7\""
             };
 
-            profile = {
-                username: 'RedFox',
+            let redFox = {
                 name: "Sarah",
                 age: 17,
                 height: "5'2\""
             }
 
-
+            function logIn() {
+                let username = prompt('Please enter username');
+                console.log (username.age)
+            }
 
             function ageCheck() {
                 if (profile.age > 18){
@@ -41,8 +40,8 @@
                 }    
                     else {console.log ('access denied')}
             }
-            ageCheck();
-            console.log(profile.name, profile.age)
+
+            logIn()
         </script>
     </div>
 </body>
