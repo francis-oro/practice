@@ -29,13 +29,16 @@
                 height: "5'2\""
             }
 
+            let username
+
             function logIn() {
-                let username = prompt('Please enter username');
-                console.log (username.age)
+                username = prompt('Please enter username');
+                console.log (username.age);
+                ageCheck();
             }
 
             function ageCheck() {
-                if (profile.age > 18){
+                if (username.age > 18){
                     console.log ('welcome')
                 }    
                     else {console.log ('access denied')}
