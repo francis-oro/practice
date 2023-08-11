@@ -14,37 +14,11 @@
         <script>
            let testObject = {
                 type: "Jaguar",
-                color: "purple"
+                color: "purple",
+                shape: 'square'
             };
 
-            let Steven555 = {
-                name: "Steven Buckley",
-                age: 42,
-                height: "5'7\""
-            };
-
-            let redFox = {
-                name: "Sarah",
-                age: 17,
-                height: "5'2\""
-            }
-
-            let username
-
-            function logIn() {
-                username = prompt('Please enter username');
-                console.log (username.age);
-                ageCheck();
-            }
-
-            function ageCheck() {
-                if (username.age > 18){
-                    console.log ('welcome')
-                }    
-                    else {console.log ('access denied')}
-            }
-
-            logIn()
+            console.log (testObject.shape)
         </script>
     </div>
 </body>
