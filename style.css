@@ -532,8 +532,9 @@ body.p9-body main {
 
 .thediv {
   width: 98%;
-  height: 99vh;
-  background-color: rgb(150, 7, 31);
-  border: 1px solid rgb(7, 7, 68);
-  position: fixed;
+  height: 20vh;
+  margin: 12 30 2 80;
+  background-color: rgb(107, 2, 20);
+  border: 12px solid rgb(7, 7, 68);
+  position: absolute;
 }
