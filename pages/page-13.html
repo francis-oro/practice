@@ -18,11 +18,17 @@
                 shape: "circle",
                 length: "32px",
             };
+            let objectProto = {
+                type: "creative",
+                name: "Salazar",
+            };
             
+            objectProto.color = testObject.color;
             testObject.color = "pink";
             testObject.type = 12;
 
-            console.log (testObject.shape, testObject.type)
+            console.log (testObject.color)
+            console.log (objectProto.color)
         </script>
     </div>
 </body>
