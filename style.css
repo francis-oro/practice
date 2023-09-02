@@ -94,7 +94,7 @@ footer {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  margin: 10px auto 40px;
+  margin: 8px auto 38px;
   max-width: 400px;
   background-color: rgb(137, 193, 226);
   border-radius: 8px;
@@ -103,12 +103,12 @@ footer {
 }
 
 .food-menu div {
-  padding: 10px;
+  padding: 9px;
   gap: 95px;
   display: flex;
   justify-content: space-between;
   background-color: rgba(214, 230, 255);
-  border-radius: 6px;
+  border-radius: 5px;
   box-shadow: 1px 1px 2px rgba(0,0,0,.6);
 }
 
