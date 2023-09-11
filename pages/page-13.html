@@ -13,18 +13,18 @@
     <div class="thediv">hi
         <script>
            let testObject = {
-                type: "Jaguar",
+                type: "null",
                 color: "purple",
                 shape: "circle",
                 length: "32px",
             };
             let objectProto = {
-                type: "creative",
+                type: null,
                 name: "Salazar",
             };
             
             objectProto.color = testObject.color;
-            testObject.color = "pink";
+            testObject.color = NaN;
             testObject.type = 12;
 
             console.log (testObject.color, objectProto.type)
