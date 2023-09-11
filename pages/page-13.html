@@ -23,7 +23,10 @@
                 name: "Salazar",
             };
             
-            objectProto.color = testObject.color;
+            objectProto = {
+                type: "green";
+                name: false;
+                
             testObject.color = NaN;
             testObject.type = 12;
 
