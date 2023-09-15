@@ -14,7 +14,7 @@
         <script>
            let testObject = {
                 type: "null",
-                color: "purple",
+                color: NaN,
                 shape: "circle",
                 length: "32px",
             };
@@ -24,10 +24,11 @@
             };
             
             objectProto = {
-                type: "green";
-                name: false;
+                type: "green",
+                name: "false",
+            };
                 
-            testObject.color = NaN;
+            testObject.color = true;
             testObject.type = 12;
 
             console.log (testObject.color, objectProto.type)
