@@ -13,10 +13,10 @@
     <div class="thediv">hi
         <script>
            let testObject = {
-                type: objectProto,
-                color: 0,
+                type: NaN,
+                color: "NaN",
                 shape: "",
-                length: "32",
+                length: 1,
             };
             
             let objectProto = {
@@ -29,8 +29,8 @@
                 name: true,
             };
                 
-            testObject.color = "string";
-            testObject.type = "var";
+            testObject.color = NaN;
+            testObject.type = undefined;
 
             console.log (testObject.color, objectProto.type)
             console.log (objectProto.color, objectProto.name)
