@@ -13,24 +13,24 @@
     <div class="thediv">hi
         <script>
            let testObject = {
-                type: 0,
-                color: 0
-                shape: 0,
-                length: 0,
+                type: test,
+                color: "test"
+                shape: NaN,
+                length: undefined,
             };
             
             let objectProto = {
-                type: 0,
-                name: 0,
+                type: false,
+                name: "",
             };
             
             objectProto = {
-                type: 1,
-                name: 1,
+                type: true,
+                name: 0,
             };
                 
-            testObject.color = 1;
-            testObject.type = 1;
+            testObject.color = null;
+            testObject.type = 0;
 
             console.log (testObject.color, objectProto.type)
             console.log (objectProto.color, objectProto.name)
