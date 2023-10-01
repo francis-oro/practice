@@ -21,19 +21,20 @@
             
             let objectProto = {
                 type: false,
-                name: "",
+                name: "0"
             };
             
             objectProto = {
                 type: "string",
                 name: null,
+                style: shrimp,
             };
                 
-            testObject.color = null;
+            testObject.color = "shrimp";
             testObject.type = 0;
 
             console.log (testObject.color, objectProto.type)
-            console.log (objectProto.color, objectProto.name)
+            console.log (objectProto.color, objectProto.style)
         </script>
     </div>
 </body>
