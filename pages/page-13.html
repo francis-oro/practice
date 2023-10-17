@@ -15,12 +15,12 @@
            let testObject = {
                 type: "original",
                 shape: "square",
-                length: 12,
+                length: 12px,
             };
             
             let objectProto = {
                 type: "new",
-                name: "prototype"
+                name: ""
             };
             
             testObject = {
@@ -32,8 +32,8 @@
             objectProto.color = "blue";
             objectProto.type = "altered";
 
-            console.log (testObject.color, testObject.type)
-            console.log (objectProto.color, objectProto.style)
+            console.log (testObject.name, testObject.style)
+            console.log (objectProto.color, objectProto.type)
         </script>
     </div>
 </body>
