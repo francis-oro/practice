@@ -13,14 +13,14 @@
     <div class="thediv">hi
         <script>
            let testObject = {
-                type: "original",
-                shape: "square",
+                type: "new",
+                shape: "round",
                 length: 12px,
-                "": "blank",
+                "": "unkown",
             };
             
             let objectProto = {
-                type: "new",
+                type: true,
                 name: "PROTOTYPE"
             };
             
@@ -31,7 +31,7 @@
             };
                 
             objectProto.color = "blue";
-            objectProto.type = "altered";
+            objectProto.type = false;
 
             console.log (testObject.name, testObject.style, testobject."")
             console.log (objectProto.color, objectProto.type)
