@@ -16,7 +16,7 @@
                 type: "new",
                 shape: square,
                 length: 12px,
-                "": "unkown",
+                type: "unkown",
             };
             
             var objectProto = {
@@ -30,8 +30,8 @@
                 style: "subdued",
             };
                 
-            objectProto.color = "";
-            objectProto.type = "";
+            objectProto.color = "red";
+            objectProto.type = 42;
 
             console.log (testObject.name, testObject.style, testobject.shape)
             console.log (objectProto.color, objectProto.type)
