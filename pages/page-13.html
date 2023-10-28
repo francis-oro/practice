@@ -14,24 +14,23 @@
         <script>
            var testObject = {
                 type: "new",
-                shape: square,
-                length: 12px,
-                type: "unkown",
+                shape: "square",
+                length: 12,
             };
             
             var objectProto = {
-                type: true,
-                name: false,
+                type: "old",
+                name: true,
             };
             
             testObject = {
                 type: "altered",
-                name: Object,
+                name: true,
                 style: "subdued",
             };
                 
             objectProto.color = "red";
-            objectProto.type = 42;
+            objectProto.type = "new";
 
             console.log (testObject.name, testObject.style, testobject.shape)
             console.log (objectProto.color, objectProto.type)
