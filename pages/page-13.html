@@ -13,25 +13,25 @@
     <div class="thediv">hi
         <script>
            var testObject = {
-                type: "new",
-                shape: "square",
-                length: 12,
+                type: "old",
+                shape: "circle",
+                length: 14,
             };
             
             var objectProto = {
-                type: "old",
-                name: true,
-                style: NaN,
+                type: "new",
+                name: false,
+                style: 0,
             };
             
             testObject = {
-                type: "altered",
+                type: "new",
                 name: true,
-                style: "subdued",
+                style: 1,
             };
                 
-            objectProto.color = "red";
-            objectProto.type = "new";
+            objectProto.color = "blue";
+            objectProto.type = true;
 
             console.log (testObject.name, testObject.style, testobject.shape)
             console.log (objectProto.color, objectProto.type)
