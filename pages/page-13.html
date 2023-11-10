@@ -15,26 +15,29 @@
            var testObject = {
                 type: "",
                 shape: "",
-                length: 23px,
+                length: 23,
+                runtime: 32
             };
             
             var objectProto = {
                 type: "wind",
                 name: "water",
                 style: "fire",
+                runtime: 33
             };
             
             testObject = {
                 type: "blue",
                 name: true,
                 style: 1,
+                runtime: 34
             };
                 
             objectProto.color = "blue";
             objectProto.type = true;
 
-            console.log (testObject.name, testObject.style, testobject.shape)
-            console.log (objectProto.color, objectProto.type)
+            console.log (testObject.name, testObject.style, testobject.runtime)
+            console.log (objectProto.color, objectProto.runtime)
         </script>
     </div>
 </body>
