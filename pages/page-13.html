@@ -13,31 +13,21 @@
     <div class="thediv">hi
         <script>
            var testObject = {
-                type: "",
-                shape: "",
-                length: 23,
-                runtime: 32
+                type: "small",
+                shape: "square",
+                length: 100,
+                runtime: 64,
             };
             
             var objectProto = {
-                type: "wind",
-                name: "water",
-                style: "fire",
-                runtime: 33
+                type: "large",
+                shape: "circle",
+                length: 400,
+                runtime: 32,
             };
-            
-            testObject = {
-                type: "blue",
-                name: true,
-                style: 1,
-                runtime: 34
-            };
-                
-            objectProto.color = "blue";
-            objectProto.type = true;
 
-            console.log (testObject.name, testObject.style, testobject.runtime)
-            console.log (objectProto.color, objectProto.runtime)
+            console.log (testObject.name, testObject.shape, testObject.length, testObject.runtime)
+            console.log (objectProto.name, objectProto.shape, objectProto.length, objectProto.runtime)
         </script>
     </div>
 </body>
