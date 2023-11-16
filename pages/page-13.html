@@ -17,6 +17,7 @@
                 shape: "non-convex",
                 length: 0,
                 runtime: 0,
+                killswitch: false,
             };
             
             var objectProto = {
@@ -24,10 +25,11 @@
                 shape: "convex",
                 length: 1,
                 runtime: 1,
+                killswitch: "true"
             };
 
-            console.log (testObject.name, testObject.shape, testObject.length, testObject.runtime)
-            console.log (objectProto.name, objectProto.shape, objectProto.length, objectProto.runtime)
+            console.log (testObject.killswitch, testObject.shape, testObject.length, testObject.runtime)
+            console.log (objectProto.killswitch, objectProto.shape, objectProto.length, objectProto.runtime)
         </script>
     </div>
 </body>
