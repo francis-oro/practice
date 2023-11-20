@@ -13,17 +13,17 @@
     <div class="thediv">hi
         <script>
            var testObject = {
-                shape: "non-convex",
-                length: 0,
-                runtime: 0,
-                killswitch: true,
+                shape: "triange",
+                length: 256,
+                runtime: 120,
+                killswitch: 0,
             };
             
             var objectProto = {
-                shape: "convex",
-                length: 01,
-                runtime: 10,
-                killswitch: false
+                shape: "star",
+                length: 64,
+                runtime: 180,
+                killswitch: 1
             };
 
             console.log (testObject.killswitch, testObject.shape, testObject.length, testObject.runtime)
